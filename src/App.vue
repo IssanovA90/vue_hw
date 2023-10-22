@@ -1,0 +1,18 @@
+<script>
+export default {
+  data: () => {
+    return {
+      
+    };
+  },
+  computed: {},
+  methods: {},
+};
+</script>
+
+<template>
+
+</template>
+
+<style scoped>
+</style>
