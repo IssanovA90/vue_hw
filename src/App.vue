@@ -1,18 +1,24 @@
-<script>
-export default {
-  data: () => {
-    return {
-      
-    };
-  },
-  computed: {},
-  methods: {},
-};
-</script>
-
 <template>
-
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
+<style>
+#app {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>
